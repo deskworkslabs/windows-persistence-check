@@ -1,0 +1,5 @@
+# Never commit a user's own machine report — it contains their SIDs,
+# usernames, installed software and paths.
+persistence-report-*.txt
+*.txt
+!LICENSE
